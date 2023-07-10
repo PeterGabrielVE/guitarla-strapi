@@ -20,6 +20,14 @@
     },
     "precio": {
       "type": "decimal"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
     }
   }
 }
